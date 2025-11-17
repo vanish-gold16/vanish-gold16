@@ -9,8 +9,7 @@
 
 ### 🧠 About Me
 - 💻 I'm an IT high school student in **Prague**, having a constant urge to learn and make the world a bit better  
-- 🎸 I’ve been playing **guitar since I was 7**, and I love combining art with logic  
-- 🏔️ Enjoy **mountaineering**, **fitness**, and learning new languages  
+- 🏔️ Enjoy **mountaineering**, **gym**, **music** and learning new languages  
 - ✉️ Reach me at **[mytrofanov.it@gmail.com](mailto:mytrofanov.it@gmail.com)**  
 - 🔗 [LinkedIn Profile](https://www.linkedin.com/in/ivan-mytrofanov-7954002a3/)
 
