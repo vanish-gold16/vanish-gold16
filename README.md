@@ -42,8 +42,7 @@
 
 ### 📈 GitHub Stats
 <p align="center">
-  https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=vanish-gold16&show_icons=true&theme=tokyonight
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanish-gold16&layout=compact&theme=tokyonight" height="160"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=vanish-gold16&show_icons=true&theme=tokyonight&cache_seconds=1800" />
 </p>
 
 ---
