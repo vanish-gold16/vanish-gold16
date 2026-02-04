@@ -46,6 +46,3 @@
 </p>
 
 ---
-
-### ✨ Quote
-<p align="center"><i>“Code is how imagination learns discipline.”</i></p>
