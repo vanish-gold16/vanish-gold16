@@ -2,7 +2,7 @@
 
 <h1 align="center">👋 Hi, I'm Ivan Mytrofanov</h1>
 <p align="center">
-  <b>IT Student from Prague | Aspiring Software Engineer </b>
+  <b>Java Backend Engineer </b>
 </p>
 
 ---
