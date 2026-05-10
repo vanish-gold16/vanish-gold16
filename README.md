@@ -12,7 +12,7 @@
 - 🏔️ Enjoy **mountaineering**, **gym**, **music** and learning new languages  
 - ✉️ Reach me at **[mytrofanov.it@gmail.com](mailto:mytrofanov.it@gmail.com)**  
 - 🔗 [LinkedIn Profile](https://www.linkedin.com/in/ivan-mytrofanov-7954002a3/)
-- 👨🏻‍💻 [My portfolio website](https:/www.mytrofanov.dev/)
+- 👨🏻‍💻 [My portfolio website](https://mytrofanov.dev/)
 
 ---
 
