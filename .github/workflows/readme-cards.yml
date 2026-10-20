@@ -1,0 +1,41 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # every day at ~05:17 Prague time
+  workflow_dispatch: # lets you run it manually from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=vanish-gold16&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=10
+          path: profile/stats.svg
+          # Optional: add a PAT as secret STATS_TOKEN to count private repos (e.g. the main Wayoni repo)
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=vanish-gold16&layout=compact&langs_count=6&hide=html,css,scss&size_weight=0.5&count_weight=0.5&theme=tokyonight&hide_border=true&border_radius=10
+          path: profile/top-langs.svg
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push
