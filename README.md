@@ -18,7 +18,6 @@
 
 - 🎓 CS student at **SPŠE Ječná**, Prague
 - 🚀 Built and run **Wayoni** solo: Spring Boot API & security, React frontend, CI/CD and server ops
-- 💼 Backend internship at **NetMate** (Spring Boot, Spring Security)
 - 📱 Currently learning **Swift / SwiftUI**
 - 🤝 Open to a **part-time junior backend role**
 - 🏔️ Off the keyboard: mountaineering, gym, guitar
